@@ -1,0 +1,341 @@
+   *{
+    padding: 0px;
+    margin: 10 0 0 0 ;
+    box-sizing: border-box;
+    font-family: "Roboto" sans-serif;
+   }
+   .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   }
+   .card1{
+   
+    width: 400px;
+    border-radius: 30px;
+    background: #FBFBFB;
+    box-shadow: 0px 10px 10px 0px rgba(26, 16, 16, 0.25);
+    padding: 30px 20px;
+}
+   .img1{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(./picture/Rectangle\ 3.png),lightgray 50% / cover no-repeat;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+   .icon{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+   }
+   .button1{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+   }
+   .button1 i{
+    font-size: 20px;  
+    color:#FC545E; 
+   }
+   .button2 i{
+    font-size: 20px;
+   color: green;
+   }
+
+.button p{
+color: #42445D;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+   }
+   .card1 h2{
+color: #42445D;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 20px;
+}
+   .card1 p{
+color: #42445D;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+margin-top: 10px;
+
+   }
+   .div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:15px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+   .div .right{
+    width: 60px;
+    height: 50px;
+    background-color: #644DEA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 25px;
+   }
+   .card1 input{
+    width: 300px;
+    height: 50px;
+    border:  solid 1px  #D9D9D9;
+    border-radius: 8px;
+    background: #fff;
+  padding: 20px 20px;
+  outline: none;
+}
+.card2{
+    width: 400px;
+    border-radius: 30px;
+    background:  #232639;;
+    box-shadow: 0px 10px 10px 0px rgba(26, 16, 16, 0.25);
+   padding: 30px 20px;
+}
+   .img2{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(./picture/Rectangle\ 3.png),lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+} 
+   .icon{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+   .button2{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background:#42445D;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+   }
+   .button1{
+    background:#42445D;
+   }
+   .button1 span{
+    width: 20.903px;
+    height: 18.232px;  
+    color:#FC545E; 
+   }
+   .button2 span{
+    width: 20.903px;
+    height: 18.232px;
+   color: green;
+   }
+
+.button p{
+color:#42445D;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+   }
+   .card2 h2{
+color:  #CECECE;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 20px;
+}
+   .card2 p{
+color:#CECECE;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+margin-top: 10px;
+}
+   .div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:15px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+   }
+   .div .right{
+    width: 60px;
+    height: 50px;
+    background-color: #644DEA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 25px;
+   }
+   .card2 input{
+    width: 300px;
+    height: 50px;
+    border:  solid 1px  #D9D9D9;
+    border-radius: 8px;
+   background:#42445D;
+  color: #CECECE; 
+  padding: 20px 20px;
+  outline: none;
+}
+.card3{
+    width: 400px;
+    border-radius: 30px;
+    background: #232224;
+    box-shadow: 0px 10px 10px 0px rgba(26, 16, 16, 0.25);
+    padding: 30px 20px;
+}
+   .img3{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(./picture/Rectangle\ 3.png), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+} 
+   .icon{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+   .button3{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+     box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.25);
+}
+   .n{
+    background-color: #fff;
+   }
+   .b{
+    background-color: #373737;;
+   }
+   .button1 span{
+    width: 20.903px;
+    height: 18.232px;  
+    color:#FC545E; 
+   }
+   .button2 span{
+    width: 20.903px;
+    height: 18.232px;
+   color: green;
+   }
+
+.button p{
+color: #42445D;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+   }
+   .card3 h2{
+color: #CECECE;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 20px;
+}
+   .card3 p{
+color: #CECECE;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+margin-top: 10px;
+
+   }
+   .div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:15px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    }
+   .div .right{
+    width: 60px;
+    height: 50px;
+    background-color: #644DEA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 25px;
+   }
+   input{
+    width: 300px;
+    height: 50px;
+    border:  solid 1px  #D9D9D9;
+    border-radius: 8px;
+    background:#373737;
+    color: #CECECE; 
+  padding: 20px 20px;
+  outline: none;
+}
+
+
+
+
+
+
+   
+
+    
